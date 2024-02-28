@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/WebCorporativa/CSS/style.css">
+    <title>Formulario</title>
+</head>
+<body class="fondo">
+    <form name = "Breaking Bad - Que comience el juego!" method="post" action= "mailto:raul.rodriguez@proeducaglobal.com" >
+        <fieldset id="titulo"><legend><h4>Breaking Bad - Que comience el juego!</h4></legend>
+            <fieldset>
+                <legend>Datos Personales</legend>
+                Nombre <b>(obligatorio)</b>: <input type="text" name="nombre" id="" label="nombre" placeholder="Indica tu nombre" required>
+                <br>Apellidos <b>(obligatorio)</b>: <input type="text" name="apellidos" id="" label="apellidos" placeholder="Indica tus apellidos" required>
+                <br>Dirección Postal: <input type="text" name="direccion" id="" label="direccion" size="25" placeholder="Indica tu calle, número y piso">
+                <br>Código Postal: <input type="text" name="codigo_postal" id="" label="cp" placeholder="Indica tu código postal">
+                <br>Ciudad: <input type="text" name="ciudad" id="" label="ciudad" placeholder="Indica tu ciudad">
+                <br>DNI: <input type="text" name="dni" id="" label="dni" placeholder="Indica tu DNI">
+                <br>Correo electrónico <b>(obligatorio)</b> <input type="email" name="mail" id="" label="mail" size="25" placeholder="Por ejemplo: correo@gmail.com" required>
+                <br>Indica tu sexo:<input type="radio" name="sexo" value="H"> Hombre <input type="radio" name="sexo" value="M"> Mujer
+                <br>Fecha de nacimiento: <input type="date" name="dia" value="2000-01-01" min="1924-01-01" max="2024-01-01">
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Sobre la serie</legend>
+                Elige personaje: <select name="personaje" id="" label="personaje">
+                    <option value="1">Jessie Pinkman</option>
+                    <option value="2">Walter White</option>
+                    <option value="3">Saul Goodman</option>
+                    <option value="4">Gustavo Fring</option>
+                    <option value="4">Pollos Hermanos</option>
+                    <option value="4">Otros personajes</option>
+                </select>
+                <p>Comenta lo que quieras sobre la serie
+                <br><textarea name="comentarios" id="" label="comentarios" cols="40" rows="5 " spellcheck="true"></textarea>
+            </fieldset> 
+        
+            <br><input type="submit" label="enviar" value="Enviar"> <input type="reset" label="borrar" value="Borrar"> <input type="file" name="archivos" label="archivos" accept="" multiple>  
+
+        </fieldset>    
+    </form>
+    
+</body>
+</html>

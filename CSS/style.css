@@ -1,0 +1,151 @@
+@font-face {
+    font-family: "Breaking";
+    src: url(/WebCorporativa/font/Breaking\ Bad.ttf);
+    
+}
+
+body{
+    background-color: #5a7210;
+    font-family: helvetica;
+    text-align: center;
+    font-size: 14px;
+
+}
+
+#breaking{
+    font-family:"Breaking";
+    font-size: 34px;
+    color: white;
+
+}
+
+.fondo{
+    background-image: url(/WebCorporativa/img/fondo.jpg);
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+      
+}
+
+#logo{
+    margin-top: 60px;
+    width: 200px;
+    height: 200px;
+
+}
+
+#poster{
+    margin-top: 20px;
+    width: 700px;
+    height: 300px;
+    border: 10px;
+    border-style: outset;
+    border-color:brown;
+    border-radius: 22px;
+    
+}
+
+#cabecera{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.fuente14{
+    font-weight: bolder;
+    size: 40px;
+
+}
+
+td{
+    width: 70px;
+    height: 70px;
+    border-color: #23291b;
+    border-style:solid;
+    border-top-width: 4px;
+    border-bottom-width: 4px;
+    border-left-width: 4px;
+    border-right-width: 4px;
+    
+}
+
+.color0{
+    text-align: center;
+    background-color: #b78ed0;
+
+}
+
+.color1{
+    text-align: center;
+    background-color: #a9dc01;
+
+}
+
+.color2{
+    text-align: center;
+    background-color: #cbec6a;
+
+}
+.color3{
+    text-align: center;
+    background-color: #808f58;
+
+}
+
+.color4{
+    text-align: center;
+    background-color: #b8e71d;
+
+}
+
+.color5{
+    text-align: center;
+    background-color: #edf6c9;
+
+}
+.color6{
+    text-align: center;
+    background-color: #b9c59d;
+
+}
+
+.color7{
+    text-align: center;
+    background-color: #7da600;
+
+}
+
+.color8{
+    text-align: center;
+    background-color: #5a721e;
+    
+}
+
+.color9{
+    text-align: center;
+    background-color: #c5c903;
+
+}
+
+table{
+    margin: auto;
+    border: 5px;
+    border: 5px solid;
+    background-color:#23291b;
+    border-color: #23291b;
+    color:#23291b;
+    font-size: 12px;
+    border-style:solid;
+    
+}
+
+span{
+    font-size: 30px;
+    font-weight: 900;
+
+}
+
+
+
+
+
